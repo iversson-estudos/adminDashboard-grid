@@ -149,6 +149,7 @@ table {
             grid-template-columns: 4fr 2fr ;
             grid-template-rows: 1fr 1fr;
             padding-left: 16px;
+            padding-right: 16px;
             
 
             .search-bar{
@@ -260,9 +261,24 @@ table {
             }
 
             .user-actions{
-                background-color: green;
                 grid-row: 2 / 3 ;
                 grid-column: 2 / 3 ;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-gap: 24px;
+                padding-left: 32px;
+                margin-top: 48px;
+                justify-content: space-evenly;
+
+                button{
+                    height: 32px;
+                    background-color: #5D4473;
+                    color: white;
+                    border-radius: 16px;
+                    border: 0px;
+                }
+
+
             }
 
 
